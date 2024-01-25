@@ -5,7 +5,7 @@ const guess = document.querySelector("#numInput");
 var hint = document.getElementById("hint");
 var bar = document.querySelectorAll("#hearts");
 var hearts = 5;
-//preparations or functions
+//preparations
 reset.style.visibility ='hidden';
 btn.style.visibility ='visible';
 var random =  Math.floor(Math.random()*100) + 1;
